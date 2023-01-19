@@ -1,5 +1,5 @@
 {
-  "name": "sample",
+  "name": "npm_sample",
   "version": "0.0.1",
   "private": true,
   "description": "A Fiori application.",
@@ -32,12 +32,15 @@
   "sapuxLayer": "CUSTOMER_BASE",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nandhakumar1234/npm_sample.git"
+    "url": "https://github.com/Nandhakumar1234/npm_sample.git"
   },
   "author": "mobolutions",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nandhakumar1234/npm_sample/issues"
   },
-  "homepage": "https://github.com/Nandhakumar1234/npm_sample#readme"
+  "homepage": "https://github.com/Nandhakumar1234/npm_sample#readme",
+  "dependencies": {
+    "generator-ui5-library": "^1.0.10"
+  }
 }
